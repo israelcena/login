@@ -2,7 +2,7 @@ import React from 'react'
 
 import loginImg from '../../../login.svg'
 
-export default function Login(props) {
+export function Login(props) {
   return (
     <div className='container'>
       <div className='header'>Login</div>
@@ -13,11 +13,11 @@ export default function Login(props) {
         <form className='form'>
           <div className='form-group'>
             <label htmlFor='username'>Usuário: </label>
-            <input type='text' name='username' placeholder='Digite seu usuário'/>
+            <input type='text' name='username' placeholder='Digite seu usuário' autoFocus />
           </div>
           <div className='form-group'>
-            <label htmlFor='password'>Password: </label>
-            <input type='password' name='password' placeholder='password'/>
+            <label htmlFor='password'>Senha: </label>
+            <input type='password' name='password' placeholder='Senha'/>
           </div>
         </form>  
       </div>

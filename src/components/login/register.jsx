@@ -1,7 +1,7 @@
 import React from 'react'
 import loginImg from '../../../login.svg'
 
-export default function Register(props) {
+export function Register(props) {
   return (
     <div className='container'>
       <div className='header'>Register</div>
