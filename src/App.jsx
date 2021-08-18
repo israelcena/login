@@ -1,8 +1,7 @@
 import React from 'react'
-import './App.scss'
-import Login from './components/login/login'
+import { Login } from './components/login/index'
 
-export default function App () {
+export default function App() {
   return (
     <div>
       <Login />
