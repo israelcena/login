@@ -1,3 +1,5 @@
 # A login Form
 
-This project is only a login form for me use in my next project
+The aewsome `login-form` component is a simple login form.
+
+
