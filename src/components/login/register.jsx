@@ -3,7 +3,7 @@ import loginImg from '../../../login.svg'
 
 export function Register(props) {
   return (
-    <div className='container'>
+    <div className='container' ref={props.containerRef}>
       <div className='header'>Register</div>
       <div className='Content'>
         <div className='image'>

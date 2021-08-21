@@ -3,7 +3,7 @@ import loginImg from '../../../login.svg'
 
 export function Login(props) {
   return (
-    <section className='container'>
+    <section className='container' ref={props.containerRef}>
       <header className='header'>Login</header>
       <main className='content'>
         <div className='content-image'>
