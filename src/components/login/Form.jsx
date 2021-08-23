@@ -4,7 +4,7 @@ import loginImg from '../../../login.svg'
 export default function Form(props) {
   return (
     <>
-      <div className='header'>{props.header}</div>
+      <div className='form-header'>{props.header}</div>
       <main className='content'>
         <div className='content-image'>
           <img className='content-image-element' src={loginImg} alt='login-image' />
